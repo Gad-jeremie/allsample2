@@ -2211,8 +2211,8 @@
 				 
 					/*gad*/
 					position: absolute;
-                    left: 0;
-                    top: 0;
+                    left: .3em;
+                    top: .13em;
                     width: 50px;
                     height: 3em;
                     opacity: 0.3;
@@ -2220,7 +2220,7 @@
 				}
 
 
-              #titleBar .toggle:hover{
+              #titleBar .toggle:hover,#titleBar .fafa:hover{
               	background:rgba(0,0,0,0.3);
               }
 
@@ -2228,9 +2228,9 @@
 				/*fa fa gad cart*/
 				#titleBar .fafa {
 					position: absolute;
-					right: 0;
+					right: .3em;
 					/*gad*/
-					top: 0;
+					top: .13em;
                     width: 50px;
                     height: 3em;
 					opacity: 0.3;
@@ -2238,31 +2238,7 @@
 				}
 
 
-					#titleBar .fafa:before {
-						display: normal;
-						font-family: FontAwesome;
-						text-decoration: none;
-						font-style: normal;
-						font-weight: normal;
-						line-height: 1;
-						-webkit-font-smoothing: antialiased;
-						-moz-osx-font-smoothing: grayscale;
-						font-size: 18px;
-						/*width: 44px;
-						height: 44px;
-						*/
-						/*gad*/    line-height: 60px;
-						 line-height: 62px;
-                         padding: 0 .9em;
-						text-align: center;
-						color: #fff;
-						content: '\f07a';
-					}
-
-					/*fa fa gad cart*/
-
-
-					#titleBar .toggle:before {
+					#titleBar .fafa:before,#titleBar .toggle:before {
 						display: inline-block;
 						font-family: FontAwesome;
 						text-decoration: none;
@@ -2271,20 +2247,31 @@
 						line-height: 1;
 						-webkit-font-smoothing: antialiased;
 						-moz-osx-font-smoothing: grayscale;
-						font-size: 18px;
+						font-size: 16px;
 						/*width: 44px;
 						height: 44px;
 						*/
-						/*gad*/     
-						 /*line-height: 62px;*/
-                         margin: .75em .9em;
+						/*gad*/    
+						/*line-height: 60px;	*/					 
+                        margin: .8em .9em;
 						text-align: center;
 						color: #fff;
+						
+					}
+
+					#titleBar .fafa:before{
+					content: '\f07a';
+					}
+
+					/*fa fa gad cart*/
+
+
+					#titleBar .toggle:before {
 						content: '\f0c9';
 					}
 
 					#titleBar .toggle:active {
-						opacity: 0.5;
+					/*	opacity: 0.5;*/
 					}
 
 			#navPanel {
