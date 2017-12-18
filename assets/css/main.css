@@ -2363,10 +2363,10 @@
 
 				/*select gad menu*/
 				.select-hidden {
-  display: none;
-  visibility: hidden;
-  padding-right: 10px;
-}
+                                 display: none;
+                                  visibility: hidden;
+                                 padding-right: 10px;
+                                         }
 
 .select {
   cursor: pointer;
@@ -2375,8 +2375,9 @@
   font-size: 13px;
   width: 95%;
   margin: 11px auto;
-  height: 43px;
+  height: 41px;
   color: #666;
+  border-radius: 3px;
 }
 
 .select-styled {
