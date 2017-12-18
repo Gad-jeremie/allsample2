@@ -2374,8 +2374,8 @@
   position: relative;
   font-size: 13px;
   width: 95%;
-  margin: 10px auto;
-  height: 41px;
+  margin: 9px auto;
+  height: 40px;
   color: #666;
 
 
@@ -2388,7 +2388,7 @@
   bottom: 0;
   left: 0;
   background-color: #f4f4f4;
-  padding: 12px 15px;
+  padding: 10px 15px;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2s ease-in;
@@ -2398,7 +2398,7 @@
      content: "";
     width: 0;
     height: 0;
-    border: 5px solid transparent;
+    border: 4px solid transparent;
     border-color: #666 transparent transparent transparent;
     position: absolute;
     top: 19px;
