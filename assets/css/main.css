@@ -2363,10 +2363,10 @@
 
 				/*select gad menu*/
 				.select-hidden {
-                                 display: none;
-                                  visibility: hidden;
-                                 padding-right: 10px;
-                                         }
+  display: none;
+  visibility: hidden;
+  padding-right: 10px;
+}
 
 .select {
   cursor: pointer;
@@ -2374,10 +2374,11 @@
   position: relative;
   font-size: 13px;
   width: 95%;
-  margin: 11px auto;
+  margin: 10px auto;
   height: 41px;
   color: #666;
-  border-radius: 3px;
+
+
 }
 
 .select-styled {
@@ -2397,12 +2398,17 @@
      content: "";
     width: 0;
     height: 0;
-    border: 7px solid transparent;
+    border: 5px solid transparent;
     border-color: #666 transparent transparent transparent;
     position: absolute;
     top: 19px;
     right: 10px;
-}
+  /*    -moz-border-radius: 50px;
+  -o-border-radius: 50px;
+  -webkit-border-radius: 50px;
+   border-radius: 50px; */
+
+   }
 .select-styled:hover {
   background-color: #e8e8e8;
 }
