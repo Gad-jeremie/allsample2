@@ -2211,12 +2211,13 @@
 				 
 					/*gad*/
 					position: absolute;
-                    left: .2em;
-                    top: .13em;
-                    width: 50px;
-                    height: 3.5em;
-                    opacity: 0.3;
-                    text-decoration: none;
+                   left: .2em;
+                   top: .13em;
+                   width: 50px;
+                   height: 3.55em;
+                   opacity: 0.3;
+                   text-decoration: none;
+                   background-color: red;
                  
 				}
 
@@ -2251,13 +2252,13 @@
 						line-height: 1;
 						-webkit-font-smoothing: antialiased;
 						-moz-osx-font-smoothing: grayscale;
-						font-size: 16px;
+						font-size: 18px;
 						/*width: 44px;
 						height: 44px;
 						*/
 						/*gad*/    
 						/*line-height: 60px;	*/					 
-                        margin: .8em 1.1em;
+                        margin: .9em .95em;
 						text-align: center;
 						color: #fff;
 						
