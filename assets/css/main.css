@@ -2207,37 +2207,39 @@
 					text-align: center;
 				}
 
-				#titleBar .toggle {
+				#titleBar .toggle{
 				 
 					/*gad*/
 					position: absolute;
-                    left: .3em;
+                    left: .2em;
                     top: .13em;
                     width: 50px;
-                    height: 3.2em;
+                    height: 3.5em;
                     opacity: 0.3;
                     text-decoration: none;
-                   background-color: red;
+                 
 				}
 
-
-              #titleBar .toggle:hover,#titleBar .fafa:hover{
-              	background:rgba(0,0,0,0.3);
-              }
 
 
 				/*fa fa gad cart*/
 				#titleBar .fafa {
 					position: absolute;
-					right: .3em;
+					right: .2em;
 					/*gad*/
-					top: .25em;
-                    width: 45px;
-                    height: 3em;
+					top: .13em;
+                    width: 42px;
+                    height: 3.5em;
 					opacity: 0.3;
 					text-decoration: none;
-					background-color: red;
+				 
 				}
+
+
+
+              #titleBar .toggle:hover,#titleBar .fafa:hover{
+              /*	background:rgba(0,0,0,0.3);*/
+              }
 
 
 					#titleBar .fafa:before,#titleBar .toggle:before {
@@ -2267,7 +2269,7 @@
 
 					#titleBar .fafa:before{
 					content: '\f07a';
-					 margin: .8em .75em;
+					 margin: .8em .77em;
 					}
 
 					/*fa fa gad cart*/
@@ -2370,11 +2372,11 @@
   cursor: pointer;
   display: block;
   position: relative;
-  font-size: 16px;
-  color: #fff;
+  font-size: 13px;
   width: 95%;
-  margin: 2px auto;
-  height: 40px;
+  margin: 11px auto;
+  height: 43px;
+  color: #666;
 }
 
 .select-styled {
@@ -2383,25 +2385,25 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: #c0392b;
-  padding: 8px 15px;
+  background-color: #f4f4f4;
+  padding: 12px 15px;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
 }
 .select-styled:after {
-  content: "";
-  width: 0;
-  height: 0;
-  border: 7px solid transparent;
-  border-color: #fff transparent transparent transparent;
-  position: absolute;
-  top: 16px;
-  right: 10px;
+     content: "";
+    width: 0;
+    height: 0;
+    border: 7px solid transparent;
+    border-color: #666 transparent transparent transparent;
+    position: absolute;
+    top: 19px;
+    right: 10px;
 }
 .select-styled:hover {
-  background-color: #b83729;
+  background-color: #e8e8e8;
 }
 .select-styled:active, .select-styled.active {
   background-color: #ab3326;
@@ -2421,7 +2423,8 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  background-color: #ab3326;
+  background-color: #e5e5e5;
+
 }
 .select-options li {
   margin: 0;
@@ -2434,7 +2437,7 @@
   transition: all 0.15s ease-in;
 }
 .select-options li:hover {
-  color: #c0392b;
+  color: #444;
   background: #fff;
 }
 .select-options li[rel="hide"] {
