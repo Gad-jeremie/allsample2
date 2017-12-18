@@ -2207,8 +2207,7 @@
 					text-align: center;
 				}
 
-				#titleBar .toggle{
-				 
+				#titleBar .toggle{				 
 					/*gad*/
 					position: absolute;
                    left: .2em;
@@ -2216,9 +2215,7 @@
                    width: 50px;
                    height: 3.55em;
                    opacity: 0.3;
-                   text-decoration: none;
-                   background-color: red;
-                 
+                   text-decoration: none;                 
 				}
 
 
@@ -2232,14 +2229,13 @@
                     width: 42px;
                     height: 3.5em;
 					opacity: 0.3;
-					text-decoration: none;
-				 
+					text-decoration: none;				 
 				}
 
 
 
               #titleBar .toggle:hover,#titleBar .fafa:hover{
-              /*	background:rgba(0,0,0,0.3);*/
+              background:rgba(0,0,0,0.3);
               }
 
 
@@ -2375,7 +2371,7 @@
   position: relative;
   font-size: 13px;
   width: 95%;
-  margin: 11px auto;
+  margin: 9px auto;
   height: 40px;
   color: #666;
 
