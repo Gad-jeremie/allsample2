@@ -2159,7 +2159,7 @@
 				-webkit-transition: -webkit-transform 0.5s ease;
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
-				background-color: #ffffff;
+				background:#fff6e5;
 				box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.3), inset 0px 0px 0px 2px rgba(255, 255, 255, 0.075), 0px 1px 6px 0px rgba(0, 0, 0, 0.35);
 				display: block;
 				/*gad*/
@@ -2393,8 +2393,9 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: #f4f4f4;
-  padding: 10px 15px;
+  background: #f6d5a1;
+    padding: 10px 15px;
+    color: #ca8110;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2s ease-in;
