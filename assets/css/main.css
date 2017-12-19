@@ -2159,7 +2159,7 @@
 				-webkit-transition: -webkit-transform 0.5s ease;
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
-				background-color: #444;
+				background-color: #ffffff;
 				box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.3), inset 0px 0px 0px 2px rgba(255, 255, 255, 0.075), 0px 1px 6px 0px rgba(0, 0, 0, 0.35);
 				display: block;
 				/*gad*/
@@ -2221,7 +2221,7 @@
                    top: .13em;
                    width: 50px;
                    height: 3.55em;
-                   opacity: 0.3;
+                    
                    text-decoration: none;                 
 				}
 
@@ -2235,15 +2235,15 @@
 					top: .13em;
                     width: 42px;
                     height: 3.5em;
-					opacity: 0.3;
+					 
 					text-decoration: none;				 
 				}
 
 
 
               #titleBar .toggle:hover,#titleBar .fafa:hover{
-              background:rgba(0,0,0,0.3);
-              opacity: 0.8;
+              background:#f6d5a1;
+              
               }
 
 
@@ -2264,7 +2264,7 @@
 						/*line-height: 60px;	*/					 
                         margin: .9em .95em;
 						text-align: center;
-						color: #fff;
+						color: #ca8110;
 						
 					}
 
