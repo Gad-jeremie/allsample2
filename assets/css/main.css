@@ -1868,8 +1868,8 @@
 			#header {
 				position: relative;
 				border-radius: 10px;
-				background: rgba(255, 165, 0, 0.6);
-				padding: 0.3em;
+				background: rgba(255, 165, 0, 0.66);
+				padding: 0.2em;
 			}
 
 				#header .inner {
